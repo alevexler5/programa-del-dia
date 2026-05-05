@@ -355,6 +355,24 @@ h1 {
 	white-space: nowrap;
 }
 
+.photos-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.8rem;
+}
+
+.location-legend {
+	margin: 0;
+	font-size: clamp(0.95rem, 3vw, 1.1rem);
+	font-weight: 500;
+	color: var(--muted);
+	letter-spacing: 0.01em;
+	text-align: center;
+	max-width: 20ch;
+	line-height: 1.4;
+}
+
 @media (min-width: 768px) {
 	.location-section {
 		/* margin-top: 4rem; */
@@ -382,5 +400,13 @@ h1 {
 		white-space: normal;
 	}
 
-	
+	.photos-container {
+		gap: 1rem;
+	}
+
+	.location-legend {
+		font-size: 1.2rem;
+		max-width: 25ch;
+	}
+
 }
