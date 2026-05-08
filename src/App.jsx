@@ -100,7 +100,7 @@ function App() {
           </div>
           <div className="location-section">
             <a
-              href="https://www.google.com/maps/place/Casona+de+Campo/@-26.7508433,-65.2168961,16.77z/data=!4m6!3m5!1s0x94226756b4c3061d:0xbd18ab7784f8cbb8!8m2!3d-26.7501106!4d-65.2077026!16s%2Fg%2F11sr27mkxs?entry=ttu&g_ep=EgoyMDI2MDQyMi4wIKXMDSoASAFQAw%3D%3D"
+              href="https://maps.app.goo.gl/tKtgnGsdnKjk94Ry6?g_st=iw"
               target="_blank"
               rel="noopener noreferrer"
               className="location-link"
